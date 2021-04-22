@@ -1,12 +1,11 @@
-
 ---
 title: 基础设施邮件列表禁止注册
 date: 2021-04-022
 author: liuqi
 categories:
-- mailing list
+- mailman
 tags:
-- mailing list
+- mailman
 ---
 # 背景
 为响应护网行动，以及考虑到海外交付，现需要禁止社区的邮件列表注册功能，禁止新用户注册账号，同时禁用第三方登录。
