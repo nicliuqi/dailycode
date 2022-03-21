@@ -18,7 +18,7 @@ openeuler-ci-bot（后面统称ci-bot）是openEuler社区的机器人，在检�
    
  当一条可合入的PR拥有`openeuler-cla/yes`，`ci_successful`，`lgtm`，`approved`等标签，ci-bot会自动将该PR合入；对处于开启状态的PR，可通过评论/check-pr检查PR的标签是否已满足合入条件，满足的话会合入PR。
      
- 如果一条新增仓库的PR被合入，ci-bot在检测到PR合入后创建仓库，并根据仓库所属sig的OWNERS文件为仓库配置开发者。如果新增的是src-openeuler的仓库，ci-bot还会自动为该项目生成_service文件，推到https://gitee.com/src-openeuler/obs_meta的master/openEuler:Factory，同时会在Jenkins上为该项目创建一系列门禁的工程（trigger，x86-64，aarch64，comment）。
+ 如果一条新增仓库的PR被合入，ci-bot在检测到PR合入后创建仓库，并根据仓库所属sig的OWNERS文件为仓库配置开发者。如果新增的是src-openeuler的仓库，ci-bot还会自动为该项目生成_service文件，推到https://gitee.com/src-openeuler/obs_meta的master/openEuler:Factory ，同时会在Jenkins上为该项目创建一系列门禁的工程（trigger，x86-64，aarch64，comment）。
  
 ### openEuler社区门禁
 
@@ -28,6 +28,9 @@ openEuelr社区门禁的构建托管在Jenkins，地址为 https://openeulerjenk
 - branch check
 
 conflict check会检查目标PR是否存在冲突，sanity check会对提交的健全性做一系列检查，branch check则会对仓库的分支变更做检查。
+
 sanity check的检查逻辑可参考源代码 https://gitee.com/openeuler/community/blob/master/ci-scripts/sanity_check.py
+
 branch check的检查逻辑可参考源代码 https://gitee.com/openeuler/community/blob/master/ci-scripts/check_branch.py
+
 branch check的配置文件为 https://gitee.com/openeuler/release-management/blob/master/valid_release_branches.yaml
