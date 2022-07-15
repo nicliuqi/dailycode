@@ -1,16 +1,4 @@
---- 
-title: openEuler小程序会议指南
-date: 2022-07-15
-tags:
-    - openEuler
-    - 小程序
-    - 会议
-sig: sig-Gatekeeper
-archives: 2022-07
-author: liuqi
-summary: 本博客介绍了openEuler小程序的会议流程
 
----
 
 openEuler小程序是一款为参与openEuler社区贡献的维护者、开发者所熟知的微信小程序。
 
