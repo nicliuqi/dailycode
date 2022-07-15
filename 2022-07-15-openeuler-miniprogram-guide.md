@@ -16,7 +16,7 @@ openEuler小程序是一款为参与openEuler社区贡献的维护者、开发�
 
 <div align="center"><img src="2022-07-15-openeuler-miniprogram-guide-01.png" alt=""/></div>
 
-<div align="center" font-size="10px"><span>openEuler小程序主页</span></div><br/>
+<div align="center"><font size=5>openEuler小程序主页</font></div><br/>
 
 下面是会议模块的流程指引。
 
