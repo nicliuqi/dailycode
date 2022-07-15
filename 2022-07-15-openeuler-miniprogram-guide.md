@@ -14,9 +14,9 @@ summary: 本博客介绍了openEuler小程序的会议流程
 
 openEuler小程序是一款为参与openEuler社区贡献的维护者、开发者所熟知的微信小程序。
 
-<div style="text-align:center"><img src="2022-07-15-openeuler-miniprogram-guide-01.png" alt=""/></div>
+<div align="center"><img src="2022-07-15-openeuler-miniprogram-guide-01.png" alt=""/></div>
 
-<div style="text-align:center;font-size:10px"><span>openEuler小程序主页</span></div><br/>
+<div align="center" font-size=10px><span>openEuler小程序主页</span></div><br/>
 
 下面是会议模块的流程指引。
 
