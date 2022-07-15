@@ -25,7 +25,7 @@ openEuler小程序是一款为参与openEuler社区贡献的维护者、开发�
 
 如果您是openEuler社区某个SIG的maintainer，并且有预定SIG会议的需求，在联系小助手添加权限后您可以预定该SIG的会议。在预定会议时，您可以选择是否自动录制会议，选择要通知的邮箱或邮件列表，也可以选择使用不同的第三方会议平台（目前支持Zoom和蓝版WeLink）。预定会议后系统会自动为该会议生成一个便于会前交流和记录会议纪要etherpad（一款支持多人同时在线编辑文本的应用）地址。
  
-<div style="text-align:center"><img src="2022-07-15-openeuler-miniprogram-guide-02.png" alt=""/></div>
+<div align="center"><img src="2022-07-15-openeuler-miniprogram-guide-02.png" alt=""/></div>
 
 <div style="text-align:center;font-size:10px"><span>选择第三方会议平台</span></div>
 
